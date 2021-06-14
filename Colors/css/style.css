@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+}
+
+.test-1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.test-2 {
+  text-align: center;
+  font-size: 30px;
+}
