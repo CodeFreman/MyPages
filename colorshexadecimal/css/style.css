@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100vw;
+}
+
+.test-1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.test-2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+div.mainContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 50px;
+}
+
+h3 {
+  font-size: 25px;
+  margin: 10px;
+}
+
+div.colorContainer {
+  height: 200px;
+  width: 300px;
+  background-color: #c4c4c4;
+}
+
+#btn {
+  margin: 10px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: navy;
+  color: white;
+}
