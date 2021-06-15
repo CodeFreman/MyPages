@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.test-1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+div.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 30px;
+}
+
+#minus {
+    color: red;
+}
+
+#count {
+    font-size: 50px;
+    margin: 0 50px;
+}
+
+#plus {
+    color: green;
+}
