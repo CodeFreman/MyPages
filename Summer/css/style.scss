@@ -1,0 +1,34 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('/images/summerbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-size: 50px;
+        font-weight: 400;
+        color: navy;
+    }
+}
+
+p#demo {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+    
+    color: navy;
+    margin-left: 350px;
+}
